@@ -511,9 +511,9 @@
     </footer>
 
     <!-- modal-window -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
         <div class="modal-window">
-            <button class="modal-window-close" type="button">
+            <button class="modal-window-close" type="button" aria-label="modal window close button">
                 <svg class="modal-window-close-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -526,7 +526,8 @@
 
 
             <!-- modal-form -->
-            <form action="modal-form">
+            <form action="modal-form" name="form-send" novalidate autocomplete="on">
+                <!-- method="post"> -->
                 <!-- <div class="modal-form-container"> -->
 
                 <div class="modal-form-input-box">
@@ -590,7 +591,7 @@
                     </label>
                 </div>
 
-                <button type="button" class="modal-form-button"> Send </button>
+                <button type="submit" class="modal-form-button"> Send </button>
 
                 <!-- </div> -->
             </form>
@@ -599,15 +600,7 @@
 
     </div>
     <!-- </div> -->
-
-    <script>
-        var module = '6';
-        var version = '1.001';
-        var version = '1.002';//hero:width:1440px;
-        var date = '2023.12.19';
-        var currentDate = new Date().toDateString('yyyy.MM.dd');
-        document.getElementById('version').innerHTML = ' module.#' + module + ' [' + date + ']' + 'v:' + version;
-    </script>
+    <script src="./scripts/version.js"></script>
 
 </body>
 
