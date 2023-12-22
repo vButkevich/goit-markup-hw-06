@@ -66,7 +66,7 @@
                     Effective Solutions
                     for Your Business
                 </h1>
-                <button class="hero-button" type="button">Order Service</button>
+                <button id="hero-button" class="hero-button" type="button">Order Service</button>
             </div>
         </section>
 
@@ -511,9 +511,10 @@
     </footer>
 
     <!-- modal-window -->
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" id="modal-form">
         <div class="modal-window">
-            <button class="modal-window-close" type="button" aria-label="modal window close button">
+            <button class="modal-window-close" id="modal-window-close" type="button"
+                aria-label="modal window close button">
                 <svg class="modal-window-close-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -526,7 +527,8 @@
 
 
             <!-- modal-form -->
-            <form action="modal-form" name="form-send" novalidate autocomplete="on">
+            <form name="form-send" novalidate autocomplete="on" method="post">
+                <!-- action="modal-form" -->
                 <!-- method="post"> -->
                 <!-- <div class="modal-form-container"> -->
 
@@ -591,7 +593,7 @@
                     </label>
                 </div>
 
-                <button type="submit" class="modal-form-button"> Send </button>
+                <button class="modal-form-button" id="modal-form-send-button" type="submit"> Send </button>
 
                 <!-- </div> -->
             </form>
@@ -601,6 +603,7 @@
     </div>
     <!-- </div> -->
     <script src="./scripts/version.js"></script>
+    <script src="./scripts/modalform.js"></script>
 
 </body>
 
