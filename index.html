@@ -54,6 +54,12 @@
                 </ul>
             </address>
 
+            <div class="mobile-menu-open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
         </div>
     </header>
 
@@ -608,8 +614,77 @@
 
     </div>
     <!-- </div> -->
-    <script src="./scripts/version.js" defer></script>
-    <script src="./scripts/modalform.js" defer></script>
+
+    <!-- modal menu -->
+    <div class="mobile-menu">
+
+        <button class="mobile-menu-close" type="button" aria-label="mobile menu close">
+            <svg class="" width="32" height="32">
+                <!-- <use xlink:href="" x="" y="" /> -->
+                <use href="#icon-close" />
+            </svg>
+        </button>
+
+
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav-item"><a href="./index.html" class="mobile-menu-nav-link">Studio</a></a></li>
+            <li class="mobile-menu-nav-item"><a href="#portfolio" class="mobile-menu-nav-link">Portfolio</a></li>
+            <li class="mobile-menu-nav-item"><a href="#contacts" class="mobile-menu-nav-link">Contacts</a></li>
+        </ul>
+
+        <contacts>
+            <ul class="mobile-menu-address-list">
+                <li class="mobile-menu-address-item">
+                    <a class="mobile-menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="mobile-menu-address-item">
+                    <a class="mobile-menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </contacts>
+
+
+        <div class="mobile-menu-social">
+            <ul class="social-links menu-social-list">
+                <li class="mobile-menu-social-item">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                        class="mobile-menu-social-link" aria-label="social link instagram">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="mobile-menu-social-item">
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"
+                        class="mobile-menu-social-link" aria-label="social link twitter">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-menu-social-item">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                        class="mobile-menu-social-link" aria-label="social link facebook">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-menu-social-item">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                        class="mobile-menu-social-link" aria-label="social link linkedin">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <script src="./scripts/version.js" defer></script>
+        <script src="./scripts/modalform.js" defer></script>
+        <script src="./scripts/mobilemenu.js" defer></script>
 
 </body>
 
