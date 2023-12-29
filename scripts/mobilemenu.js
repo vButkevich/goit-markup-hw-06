@@ -6,7 +6,7 @@
     menuBtnOpen.addEventListener('click', function () {
         mobileMenuToggle();
     })
-    let menuBtnClose = document.querySelector('.mobile-menu-close');
+    let menuBtnClose = document.querySelector('.mobile-menu-btn-close');
     menuBtnClose.addEventListener('click', function () {
         mobileMenuToggle();
     })
@@ -17,8 +17,8 @@
 
 
 
-    function mobileMenuOpenClose() {
-        menu.classList.toggle('active');
-        // menu.classList.add('is-open');
-    }
+    // function mobileMenuOpenClose() {
+    //     menu.classList.toggle('active');
+    //     // menu.classList.add('is-open');
+    // }
 }

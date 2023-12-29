@@ -31,8 +31,8 @@
                     Web<span style="color:#2e2f42">Studio</span>
                 </a>
 
-                <menu class="hide">
-                    <ul class="header-nav-items hide">
+                <menu class="header-nav-menu">
+                    <ul class="header-nav-items">
                         <li><a class="header-nav-item main" href="./index.html">Studio</a></li>
                         <li><a class="header-nav-item" href="#">Portfolio</a></li>
                         <li><a class="header-nav-item" href="#">Contacts</a></li>
@@ -40,19 +40,15 @@
                 </menu>
             </nav>
 
-            <address class="contacts hide">
-                <ul class="contacts-items">
-                    <li>
-                        <!-- <li class="contacts-item"> -->
-                        <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-
-                    <li>
-                        <!-- <li class="contacts-item"> -->
-                        <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
+            <address class="header-address">
+                <ul class="header-address-list">
+                    <li class="header-address-item"><a class="address-link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header-address-item"><a class="address-link" href="tel:+110001111111">+11 (000)
+                            111-11-11</a></li>
                 </ul>
             </address>
+
 
             <div class="mobile-menu-open">
                 <span></span>
@@ -63,7 +59,7 @@
         </div>
     </header>
 
-    <version id="version" class="version hide">
+    <version id="version" class="version">
         v:forms:2023.12.16:5.019
     </version>
 
@@ -524,7 +520,7 @@
     </footer>
 
     <!-- modal-window -->
-    <div class="backdrop is-hidden" id="modal-form">
+    <div class="backdrop" id="modal-form">
         <div class="modal-window">
             <button class="modal-window-close" id="modal-window-close" type="button"
                 aria-label="modal window close button">
@@ -618,10 +614,10 @@
     <!-- modal menu -->
     <div class="mobile-menu">
 
-        <button class="mobile-menu-close" type="button" aria-label="mobile menu close">
-            <svg class="" width="32" height="32">
-                <!-- <use xlink:href="" x="" y="" /> -->
-                <use href="#icon-close" />
+        <button class="mobile-menu-btn-close" id="mobile-menu-btn-close" type="button"
+            aria-label="mobile menu button close">
+            <svg class="modal-window-close-svg" width="14" height="14">
+                <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>
 
