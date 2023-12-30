@@ -1317,7 +1317,7 @@ input[type="checkbox"]:checked+label>span {
   /* #E7E9FC;*/
   /* padding: 72px 16px 40px; */
   padding: 16px;
-  opacity: .92;
+  opacity: .95;
 
   visibility: hidden;
   transform: translateX(-100%);
@@ -1386,8 +1386,9 @@ input[type="checkbox"]:checked+label>span {
   align-items: center;
   justify-content: center;
 
-  background-color: #e7e9fc;
+  /* -border: none; */
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
   padding: 0;
   cursor: pointer;
 
@@ -1519,8 +1520,8 @@ input[type="checkbox"]:checked+label>span {
 
 .mobile-menu-btn-open {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 24px;
+  right: 24px;
 
   width: 28px;
   height: 28px;
@@ -1533,6 +1534,9 @@ input[type="checkbox"]:checked+label>span {
   align-items: center;
   justify-content: center;
   visibility: visible;
+
+  border: none;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {

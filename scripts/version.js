@@ -8,6 +8,7 @@
     versionInfo = '[2023.12.29]v.1.013:lesson:11.mobile-menu;';
     versionInfo = '[2023.12.29]v.1.015:lesson:11.header-address;';
     versionInfo = '[2023.12.31]v.1.019:lesson:11.img@2x;';
+    versionInfo = '[2023.12.31]v.1.021:lesson:11.burger;';
 
     function setVersionInfo(versionInfo) {
         document.getElementById('version').innerHTML = `module.#${module}|${versionInfo}`;
