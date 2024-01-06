@@ -766,8 +766,13 @@ img {
 .portfolio-img {
   position: relative;
   overflow: hidden;
+  width: 288px;
 }
-
+@media only screen and (min-width: 320px) {
+  .portfolio-img {
+    width: 360px;
+  }
+}
 .portfolio-img-overlay {
   position: absolute;
   top: 0;
