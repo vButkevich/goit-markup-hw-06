@@ -11,6 +11,7 @@
   versionInfo = '[2023.12.30]v.1.021:lesson:11.burger;';
   versionInfo = '[2023.12.31]v.1.019:lesson:11.versionInfo;';
   versionInfo = '[2024.01.01]v.1.021:lesson:11.fix-prettier;';
+  versionInfo = '[2024.01.06]v.1.027:lesson:11.fix-issues;';
 
   function setVersionInfo(versionInfo) {
     document.getElementById(
